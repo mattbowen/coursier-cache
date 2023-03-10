@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.codecommit</groupId>
+    <artifactId>sbt-github-actions</artifactId>
+    <packaging>jar</packaging>
+    <description>sbt-github-actions</description>
+    <url>https://github.com/djspiewak/sbt-github-actions</url>
+    <version>0.12.0</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>sbt-github-actions</name>
+    <inceptionYear>2020</inceptionYear>
+    <organization>
+        <name>Daniel Spiewak</name>
+        <url>https://github.com/djspiewak/sbt-github-actions</url>
+    </organization>
+    <scm>
+        <url>https://github.com/djspiewak/sbt-github-actions</url>
+        <connection>scm:git:https://github.com/djspiewak/sbt-github-actions.git</connection>
+        <developerConnection>scm:git:git@github.com:djspiewak/sbt-github-actions.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>djspiewak</id>
+            <name>Daniel Spiewak</name>
+            <url>https://github.com/djspiewak</url>
+            <email>@djspiewak</email>
+        </developer>
+    </developers>
+    <properties>
+        <scalaVersion>2.12</scalaVersion>
+        <sbtVersion>1.0</sbtVersion>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.10</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>1.3.13</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.25</version>
+        </dependency>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2-core_2.12</artifactId>
+            <version>4.8.3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

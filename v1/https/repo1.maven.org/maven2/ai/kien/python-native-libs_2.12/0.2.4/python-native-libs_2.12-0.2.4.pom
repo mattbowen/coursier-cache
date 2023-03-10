@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ai.kien</groupId>
+    <artifactId>python-native-libs_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>Python Native Libs</description>
+    <url>https://github.com/kiendang/python-native-libs</url>
+    <version>0.2.4</version>
+    <licenses>
+        <license>
+            <name>BSD-3-Clause</name>
+            <url>https://opensource.org/licenses/BSD-3-Clause</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>Python Native Libs</name>
+    <organization>
+        <name>ai.kien</name>
+        <url>https://github.com/kiendang/python-native-libs</url>
+    </organization>
+    <scm>
+        <url>https://github.com/scalapy/python-native-libs</url>
+        <connection>scm:git:https://github.com/scalapy/python-native-libs.git</connection>
+        <developerConnection>scm:git:git@github.com:scalapy/python-native-libs.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>kiendang</id>
+            <name>Dang Trung Kien</name>
+            <url>https://kien.ai</url>
+            <email>mail@kien.ai</email>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.15</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang.modules</groupId>
+            <artifactId>scala-collection-compat_2.12</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>me.shadaj</groupId>
+            <artifactId>scalapy-core_2.12</artifactId>
+            <version>0.5.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.12</artifactId>
+            <version>3.2.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

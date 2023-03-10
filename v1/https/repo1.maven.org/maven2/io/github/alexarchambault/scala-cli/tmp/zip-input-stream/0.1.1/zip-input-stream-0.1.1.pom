@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.alexarchambault.scala-cli.tmp</groupId>
+  <artifactId>zip-input-stream</artifactId>
+  <version>0.1.1</version>
+  <url>https://github.com/scala-cli/no-crc32-zip-input-stream</url>
+  <description>zip-input-stream</description>
+  <name>zip-input-stream</name>
+  <organization>
+    <name>io.github.alexarchambault.scala-cli.tmp</name>
+    <url>https://github.com/scala-cli/no-crc32-zip-input-stream</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>GPL-2.0-with-classpath-exception</name>
+      <url>https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/scala-cli/no-crc32-zip-input-stream.git</url>
+    <connection>scm:git:github.com/scala-cli/no-crc32-zip-input-stream.git</connection>
+    <developerConnection>scm:git:git@github.com:scala-cli/no-crc32-zip-input-stream.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>alexarchambault</id>
+      <name>Alex Archambault</name>
+      <url>https://github.com/alexarchambault</url>
+    </developer>
+  </developers>
+</project>
